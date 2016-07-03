@@ -19,14 +19,18 @@
         </activity>
         <activity
             android:name=".SearchActivity"
-            android:label="@string/activity_search" />
+            android:label="@string/activity_search"/>
         <activity
             android:name=".NowPlayingActivity"
             android:label="@string/activity_nowPlaying" />
         <activity
             android:name=".PlaylistActivity"
-            android:label="@string/activity_playlist" />
-        <activity android:name=".UpNextActivity" android:label="@string/activity_upNext"></activity>
+            android:label="@string/activity_playlist"
+            android:parentActivityName=".LibraryActivity"/>
+        <activity
+            android:name=".UpNextActivity"
+            android:label="@string/activity_upNext"
+            android:parentActivityName=".NowPlayingActivity"/>
     </application>
 
 </manifest>
