@@ -9,5 +9,5 @@
     <!-- Display Titles -->
     <string name="playlists">Playlists</string>
     <string name="songs">Songs</string>
-    <string name="up_next">Up Next</string>
+    <string name="search">Search Music</string>
 </resources>
