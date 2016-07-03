@@ -18,9 +18,6 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".SearchActivity"
-            android:label="@string/activity_search"/>
-        <activity
             android:name=".NowPlayingActivity"
             android:label="@string/activity_nowPlaying" />
         <activity
