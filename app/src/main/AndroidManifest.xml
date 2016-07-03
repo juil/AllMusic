@@ -17,9 +17,16 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".SearchActivity" android:label="@string/activity_search" />
-        <activity android:name=".NowPlayingActivity" android:label="@string/activity_nowPlaying" />
-        <activity android:name=".PlaylistActivity" android:label="@string/activity_playlist"></activity>
+        <activity
+            android:name=".SearchActivity"
+            android:label="@string/activity_search" />
+        <activity
+            android:name=".NowPlayingActivity"
+            android:label="@string/activity_nowPlaying" />
+        <activity
+            android:name=".PlaylistActivity"
+            android:label="@string/activity_playlist" />
+        <activity android:name=".UpNextActivity" android:label="@string/activity_upNext"></activity>
     </application>
 
 </manifest>

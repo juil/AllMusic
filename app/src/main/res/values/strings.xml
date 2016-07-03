@@ -5,6 +5,7 @@
     <string name="activity_search">Search</string>
     <string name="activity_playlist">Playlist</string>
     <string name="activity_nowPlaying">Now Playing</string>
+    <string name="activity_upNext">Up Next</string>
     <!-- Display Titles -->
     <string name="playlists">Playlists</string>
     <string name="songs">Songs</string>
