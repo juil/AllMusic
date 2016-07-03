@@ -1,9 +1,11 @@
 package com.juilyoon.allmusic;
 
 import android.content.Intent;
+import android.media.Image;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 
@@ -18,8 +20,8 @@ public class LibraryActivity extends AppCompatActivity {
         playlist1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent playlistIntent = new Intent(LibraryActivity.this, PlaylistActivity.class);
-                startActivity(playlistIntent);
+                Intent openPlaylist = new Intent(LibraryActivity.this, PlaylistActivity.class);
+                startActivity(openPlaylist);
             }
         });
 
