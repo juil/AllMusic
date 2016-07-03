@@ -9,4 +9,27 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context=".UpNextActivity">
 
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:id="@+id/up_next_group"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <LinearLayout
+                android:id="@+id/song_01"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/list_song">
+                <ImageView
+                    android:layout_width="@dimen/list_song"
+                    android:layout_height="@dimen/list_song"
+                    android:src="@drawable/cover_pinkfloyd"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Pink Floyd"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
 </RelativeLayout>
