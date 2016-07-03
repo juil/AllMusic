@@ -5,5 +5,5 @@
     <color name="colorPrimaryLight">#FFCDD2</color>
     <color name="colorAccent">#009688</color>
     <color name="colorAccentLight">#B2DFDB</color>
-    <color name="notes">#FFF</color>
+    <color name="notes">#EEE</color>
 </resources>

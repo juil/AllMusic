@@ -17,4 +17,8 @@ public class NowPlayingActivity extends AppCompatActivity {
         Intent upNext = new Intent(NowPlayingActivity.this, UpNextActivity.class);
         startActivity(upNext);
     }
+
+    public void hideNotes(View view) {
+        view.setVisibility(View.GONE);
+    }
 }

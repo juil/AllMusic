@@ -1,6 +1,7 @@
 package com.juilyoon.allmusic;
 
 import android.content.Intent;
+import android.gesture.GestureOverlayView;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -21,5 +22,9 @@ public class UpNextActivity extends AppCompatActivity {
                 startActivity(nowPlaying);
             }
         });
+    }
+
+    public void hideNotes(View view) {
+        view.setVisibility(View.GONE);
     }
 }

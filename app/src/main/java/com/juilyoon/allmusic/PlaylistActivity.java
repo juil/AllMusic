@@ -22,4 +22,8 @@ public class PlaylistActivity extends AppCompatActivity {
             }
         });
     }
+
+    public void hideNotes(View view) {
+        view.setVisibility(View.GONE);
+    }
 }

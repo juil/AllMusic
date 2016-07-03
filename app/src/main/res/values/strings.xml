@@ -16,5 +16,20 @@
     \nI would like to implement a search interface into the app bar, but have used a simple SearchView
     here in the library for now.
     \nThe most pressing challenge is how to pull the list of songs and playlists from a database and generate
-    the necessary views. The **ListView** looks the most promising in this regard.</string>
+    the necessary views. The *ListView* and *Loader* looks the most promising in this regard.
+    \nI would also like to make the **Now Playing** interface at the bottom of this activity to
+    persistent across activities, but I have not been able to find an elegant solution in my cursory
+    research.</string>
+    <string name="notes_nowPlaying">This **Now Playing** activity displays the current playing song
+    and music controls.
+    \nActually streaming and controlling the music would be the challenge here. I would have look into *AudioManager*
+    and *STREAM_MUSIC*.</string>
+    <string name="notes_playlist">This **Playlist** activity displays the list of songs in a particular
+    playlist with a large cover art image.
+    \nStoring the playlist and generating the necessary views would also be a hurdle here. I would like
+    to create custom *Song* and *Playlist* classes to handle this.</string>
+    <string name="notes_upNext">This **Up Next** activity displays the songs in the currently playing
+    playlist.
+    \nUpdating this current playlist as songs are added and played (removed) would be the challenge here.
+    Dynamically removing songs as they finish will be an interesting problem to solve.</string>
 </resources>

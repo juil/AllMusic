@@ -11,6 +11,13 @@
     android:descendantFocusability="beforeDescendants"
     android:focusableInTouchMode="true">
 
+    <!-- Notes -->
+    <TextView
+        android:id="@+id/notes"
+        style="@style/Notes"
+        android:text="@string/notes_library"
+        android:onClick="hideNotes"/>
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -59,10 +66,6 @@
                     android:text="Pink Floyd"/>
             </LinearLayout>
         </ScrollView>
-        <!-- Notes -->
-        <TextView
-            style="@style/Notes"
-            android:text="@string/notes_library"/>
 
     </LinearLayout>
     <LinearLayout

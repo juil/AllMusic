@@ -13,6 +13,7 @@
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_centerInParent">true</item>
         <item name="android:elevation">8dp</item>
+        <item name="android:background">@color/notes</item>
     </style>
 
 </resources>

@@ -9,6 +9,12 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context=".UpNextActivity">
 
+    <!-- Notes -->
+    <TextView
+        style="@style/Notes"
+        android:text="@string/notes_upNext"
+        android:onClick="hideNotes"/>
+
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent">

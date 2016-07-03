@@ -8,6 +8,7 @@ import android.view.View;
 import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
+import android.widget.TextView;
 
 public class LibraryActivity extends AppCompatActivity {
 
@@ -45,5 +46,9 @@ public class LibraryActivity extends AppCompatActivity {
     private void openNowPlaying() {
         Intent songIntent = new Intent(LibraryActivity.this, NowPlayingActivity.class);
         startActivity(songIntent);
+    }
+
+    public void hideNotes(View view) {
+        view.setVisibility(View.GONE);
     }
 }
