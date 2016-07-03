@@ -10,4 +10,11 @@
     <string name="playlists">Playlists</string>
     <string name="songs">Songs</string>
     <string name="search">Search Music</string>
+    <!-- Notes -->
+    <string name="notes_library">This **Library** activity displays the users saved playlists and songs,
+    while also providing an interface for searching through their own library as well as for new songs.
+    \nI would like to implement a search interface into the app bar, but have used a simple SearchView
+    here in the library for now.
+    \nThe most pressing challenge is how to pull the list of songs and playlists from a database and generate
+    the necessary views. The **ListView** looks the most promising in this regard.</string>
 </resources>

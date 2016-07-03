@@ -7,7 +7,9 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.juilyoon.allmusic.LibraryActivity">
+    tools:context="com.juilyoon.allmusic.LibraryActivity"
+    android:descendantFocusability="beforeDescendants"
+    android:focusableInTouchMode="true">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -57,6 +59,11 @@
                     android:text="Pink Floyd"/>
             </LinearLayout>
         </ScrollView>
+        <!-- Notes -->
+        <TextView
+            style="@style/Notes"
+            android:text="@string/notes_library"/>
+
     </LinearLayout>
     <LinearLayout
         android:id="@+id/now_playing"
